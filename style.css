@@ -1,0 +1,31 @@
+.card {
+  background-color: var(--bs-border);
+}
+
+.carousel {
+  padding: 0;
+  overflow: hidden;
+}
+.carousel .carousel-control-prev {
+  background-image: linear-gradient(90deg, #000000, transparent);
+}
+.carousel .carousel-control-next {
+  background-image: linear-gradient(270deg, #000000, transparent);
+}
+.carousel .carousel-indicators {
+  padding: var(--bs-border-radius-lg);
+  background-color: var(--bs-body-color);
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: var(--bs-border-radius-lg);
+  left: 35%;
+  transform: translateX(-50%);
+}
+.carousel .carousel-control-prev-icon,
+.carousel .carousel-control-next-icon {
+  filter: unset !important;
+}
+
+.cards section:nth-child(odd) div.row {
+  flex-direction: row-reverse;
+}/*# sourceMappingURL=style.css.map */
